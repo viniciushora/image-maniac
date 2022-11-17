@@ -1,0 +1,32 @@
+{
+  "name": "image-maniac",
+  "version": "1.0.0",
+  "description": "Aplicação de autenticação",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "web",
+    "development"
+  ],
+  "author": "Vinicius Corte",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
